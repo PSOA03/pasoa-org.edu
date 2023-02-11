@@ -1,0 +1,52 @@
+<style>
+	* {margin:0;
+	   padding:0;
+	   outline:0;
+	   border:0;}
+	
+	body {height:100vh;
+		  font-family:arial, helvetica, sans-serif;
+		  display:grid;
+		  place-items:center;}
+	
+	h1 {margin-bottom: 2rem;}
+	
+	form {display: flex;
+		  flex-direction: column;
+		  width: 24rem;
+		  gap: 1rem;}
+	
+	input, 
+	select,
+	textarea {padding: 1.4rem;
+			  background: transparent;
+			  border: 1px solid;}
+	
+	textarea {height: 6rem}
+	
+	button {width: 8rem;
+			padding: 1.4rem;
+			cursor: pointer;
+			background: red;
+			color: white;}
+</style>
+<body>
+	<div class="container">
+		<h1>Contact Form</h1>
+		<form action="https://formsubmit.co/30862c5d2d335edbf850099d32195606" method="POST">
+			<input type="text" name="Name" placeholder="Full Name" required>
+			<input type="email" name="Email" placeholder="Email" required>
+			<select name="Course">
+				<option>BOSOA</option>
+				<option>BOSOA</option>
+				<option>BOSOA</option>
+				<option>BOSOA</option>
+				<option>BOSOA</option>
+				<option>BOSOA</option>
+				<option>BOSOA</option>
+			</select>
+			<textarea name="Message" placeholder="Message" required></textarea>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+</body>	
